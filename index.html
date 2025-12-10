@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <title>AI Calaverita Generator</title>
     <link rel="stylesheet" href="src/style.css" />
   </head>
@@ -15,7 +16,7 @@
           Day-of-the-Dead poem that playfully imagines someone’s encounter with
           Death, often teasing their habits or personality.
         </h2>
-        <form action="">
+        <form id="poem-generator-form">
           <input
             type="text"
             placeholder="Enter the topic..."
@@ -27,16 +28,7 @@
           <input type="submit" id="submit-button" />
         </form>
       </div>
-      <div class="poem">
-        El maestro de mate, muy sabio y formal,<br />
-        se fue a su salón, como siempre a enseñar. <br />
-        Pero la muerte entró sin avisar, <br />
-        y a su escritorio se quiso llevar. <br /><br />
-        "Conmigo te vas a un concurso infernal, <br />
-        de números que nadie podrá contar". <br />
-        El maestro, tranquilo, le quiso enseñar <br />
-        que en las matemáticas, lo eterno está.
-      </div>
+      <div class="poem" id="poem"></div>
     </div>
     <footer>
       This was coded by
