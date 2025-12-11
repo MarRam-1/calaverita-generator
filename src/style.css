@@ -87,6 +87,11 @@ form {
   justify-content: center;
 }
 
+.poem strong {
+  color: #f59159;
+  font-weight: 700;
+}
+
 footer {
   font-size: 14px;
   opacity: 75%;
